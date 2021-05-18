@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="d0" green="d8" red="81" type="rgb"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Currency Value">
+                    <Property name="tabTitle" type="java.lang.String" value="Currency Value"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="141" max="-2" attributes="0"/>
+                          <Component id="searchCurrency" min="-2" pref="201" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="searchCurrencyValue" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="107" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="results" min="-2" pref="305" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Component id="baseCurrency" min="-2" pref="197" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="searchCurrencyValue" max="32767" attributes="0"/>
+                              <Component id="searchCurrency" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          <Component id="results" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                          <Component id="baseCurrency" min="-2" pref="33" max="-2" attributes="0"/>
+                          <EmptySpace pref="31" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="searchCurrencyValue">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="/Users/odinakaarochukwu/Documents/java/currency-converter/currency converter/icons8-search-24.png"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchCurrencyValueActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="results">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="The result of your search will show here"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="searchCurrency">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="151">
+                        <StringItem index="0" value="CAD"/>
+                        <StringItem index="1" value="AED"/>
+                        <StringItem index="2" value="AFN"/>
+                        <StringItem index="3" value="ALL"/>
+                        <StringItem index="4" value="AMD"/>
+                        <StringItem index="5" value="ANG"/>
+                        <StringItem index="6" value="AOA"/>
+                        <StringItem index="7" value="ARS"/>
+                        <StringItem index="8" value="AUD"/>
+                        <StringItem index="9" value="AWG"/>
+                        <StringItem index="10" value="AZN"/>
+                        <StringItem index="11" value="BAM"/>
+                        <StringItem index="12" value="BBD"/>
+                        <StringItem index="13" value="BDT"/>
+                        <StringItem index="14" value="BGN"/>
+                        <StringItem index="15" value="BHD"/>
+                        <StringItem index="16" value="BIF"/>
+                        <StringItem index="17" value="BND"/>
+                        <StringItem index="18" value="BOB"/>
+                        <StringItem index="19" value="BRL"/>
+                        <StringItem index="20" value="BSD"/>
+                        <StringItem index="21" value="BWP"/>
+                        <StringItem index="22" value="BYN"/>
+                        <StringItem index="23" value="BZD"/>
+                        <StringItem index="24" value="CDF"/>
+                        <StringItem index="25" value="CHF"/>
+                        <StringItem index="26" value="CLP"/>
+                        <StringItem index="27" value="CNY"/>
+                        <StringItem index="28" value="COP"/>
+                        <StringItem index="29" value="CRC"/>
+                        <StringItem index="30" value="CUP"/>
+                        <StringItem index="31" value="CVE"/>
+                        <StringItem index="32" value="CZK"/>
+                        <StringItem index="33" value="DJF"/>
+                        <StringItem index="34" value="DKK"/>
+                        <StringItem index="35" value="DOP"/>
+                        <StringItem index="36" value="DZD"/>
+                        <StringItem index="37" value="EGP"/>
+                        <StringItem index="38" value="ERN"/>
+                        <StringItem index="39" value="ETB"/>
+                        <StringItem index="40" value="EUR"/>
+                        <StringItem index="41" value="FJD"/>
+                        <StringItem index="42" value="GBP"/>
+                        <StringItem index="43" value="GEL"/>
+                        <StringItem index="44" value="GHS"/>
+                        <StringItem index="45" value="GIP"/>
+                        <StringItem index="46" value="GMD"/>
+                        <StringItem index="47" value="GNF"/>
+                        <StringItem index="48" value="GTQ"/>
+                        <StringItem index="49" value="GYD"/>
+                        <StringItem index="50" value="HKD"/>
+                        <StringItem index="51" value="HNL"/>
+                        <StringItem index="52" value="HRK"/>
+                        <StringItem index="53" value="HTG"/>
+                        <StringItem index="54" value="HUF"/>
+                        <StringItem index="55" value="IDR"/>
+                        <StringItem index="56" value="ILS"/>
+                        <StringItem index="57" value="INR"/>
+                        <StringItem index="58" value="IQD"/>
+                        <StringItem index="59" value="IRR"/>
+                        <StringItem index="60" value="ISK"/>
+                        <StringItem index="61" value="JMD"/>
+                        <StringItem index="62" value="JOD"/>
+                        <StringItem index="63" value="JPY"/>
+                        <StringItem index="64" value="KES"/>
+                        <StringItem index="65" value="KGS"/>
+                        <StringItem index="66" value="KHR"/>
+                        <StringItem index="67" value="KMF"/>
+                        <StringItem index="68" value="KRW"/>
+                        <StringItem index="69" value="KWD"/>
+                        <StringItem index="70" value="KZT"/>
+                        <StringItem index="71" value="LAK"/>
+                        <StringItem index="72" value="LBP"/>
+                        <StringItem index="73" value="LKR"/>
+                        <StringItem index="74" value="LRD"/>
+                        <StringItem index="75" value="LSL"/>
+                        <StringItem index="76" value="LYD"/>
+                        <StringItem index="77" value="MAD"/>
+                        <StringItem index="78" value="MDL"/>
+                        <StringItem index="79" value="MGA"/>
+                        <StringItem index="80" value="MKD"/>
+                        <StringItem index="81" value="MMK"/>
+                        <StringItem index="82" value="MNT"/>
+                        <StringItem index="83" value="MOP"/>
+                        <StringItem index="84" value="MRU"/>
+                        <StringItem index="85" value="MUR"/>
+                        <StringItem index="86" value="MVR"/>
+                        <StringItem index="87" value="MWK"/>
+                        <StringItem index="88" value="MXN"/>
+                        <StringItem index="89" value="MYR"/>
+                        <StringItem index="90" value="MZN"/>
+                        <StringItem index="91" value="NAD"/>
+                        <StringItem index="92" value="NGN"/>
+                        <StringItem index="93" value="NIO"/>
+                        <StringItem index="94" value="NOK"/>
+                        <StringItem index="95" value="NPR"/>
+                        <StringItem index="96" value="NZD"/>
+                        <StringItem index="97" value="OMR"/>
+                        <StringItem index="98" value="PAB"/>
+                        <StringItem index="99" value="PEN"/>
+                        <StringItem index="100" value="PGK"/>
+                        <StringItem index="101" value="PHP"/>
+                        <StringItem index="102" value="PKR"/>
+                        <StringItem index="103" value="PLN"/>
+                        <StringItem index="104" value="PYG"/>
+                        <StringItem index="105" value="QAR"/>
+                        <StringItem index="106" value="RON"/>
+                        <StringItem index="107" value="RSD"/>
+                        <StringItem index="108" value="RUB"/>
+                        <StringItem index="109" value="RWF"/>
+                        <StringItem index="110" value="SAR"/>
+                        <StringItem index="111" value="SBD"/>
+                        <StringItem index="112" value="SCR"/>
+                        <StringItem index="113" value="SDG"/>
+                        <StringItem index="114" value="SEK"/>
+                        <StringItem index="115" value="SGD"/>
+                        <StringItem index="116" value="SLL"/>
+                        <StringItem index="117" value="SOS"/>
+                        <StringItem index="118" value="SRD"/>
+                        <StringItem index="119" value="SSP"/>
+                        <StringItem index="120" value="STN"/>
+                        <StringItem index="121" value="SVC"/>
+                        <StringItem index="122" value="SYP"/>
+                        <StringItem index="123" value="SZL"/>
+                        <StringItem index="124" value="THB"/>
+                        <StringItem index="125" value="TJS"/>
+                        <StringItem index="126" value="TMT"/>
+                        <StringItem index="127" value="TND"/>
+                        <StringItem index="128" value="TOP"/>
+                        <StringItem index="129" value="TRY"/>
+                        <StringItem index="130" value="TTD"/>
+                        <StringItem index="131" value="TWD"/>
+                        <StringItem index="132" value="TZS"/>
+                        <StringItem index="133" value="UAH"/>
+                        <StringItem index="134" value="UGX"/>
+                        <StringItem index="135" value="USD"/>
+                        <StringItem index="136" value="UYU"/>
+                        <StringItem index="137" value="UZS"/>
+                        <StringItem index="138" value="VES"/>
+                        <StringItem index="139" value="VND"/>
+                        <StringItem index="140" value="VUV"/>
+                        <StringItem index="141" value="WST"/>
+                        <StringItem index="142" value="XAF"/>
+                        <StringItem index="143" value="XCD"/>
+                        <StringItem index="144" value="XDR"/>
+                        <StringItem index="145" value="XOF"/>
+                        <StringItem index="146" value="XPF"/>
+                        <StringItem index="147" value="YER"/>
+                        <StringItem index="148" value="ZAR"/>
+                        <StringItem index="149" value="ZMW"/>
+                        <StringItem index="150" value="ZWL"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="baseCurrency">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="151">
+                        <StringItem index="0" value="NGN"/>
+                        <StringItem index="1" value="AED"/>
+                        <StringItem index="2" value="AFN"/>
+                        <StringItem index="3" value="ALL"/>
+                        <StringItem index="4" value="AMD"/>
+                        <StringItem index="5" value="ANG"/>
+                        <StringItem index="6" value="AOA"/>
+                        <StringItem index="7" value="ARS"/>
+                        <StringItem index="8" value="AUD"/>
+                        <StringItem index="9" value="AWG"/>
+                        <StringItem index="10" value="AZN"/>
+                        <StringItem index="11" value="BAM"/>
+                        <StringItem index="12" value="BBD"/>
+                        <StringItem index="13" value="BDT"/>
+                        <StringItem index="14" value="BGN"/>
+                        <StringItem index="15" value="BHD"/>
+                        <StringItem index="16" value="BIF"/>
+                        <StringItem index="17" value="BND"/>
+                        <StringItem index="18" value="BOB"/>
+                        <StringItem index="19" value="BRL"/>
+                        <StringItem index="20" value="BSD"/>
+                        <StringItem index="21" value="BWP"/>
+                        <StringItem index="22" value="BYN"/>
+                        <StringItem index="23" value="BZD"/>
+                        <StringItem index="24" value="CAD"/>
+                        <StringItem index="25" value="CDF"/>
+                        <StringItem index="26" value="CHF"/>
+                        <StringItem index="27" value="CLP"/>
+                        <StringItem index="28" value="CNY"/>
+                        <StringItem index="29" value="COP"/>
+                        <StringItem index="30" value="CRC"/>
+                        <StringItem index="31" value="CUP"/>
+                        <StringItem index="32" value="CVE"/>
+                        <StringItem index="33" value="CZK"/>
+                        <StringItem index="34" value="DJF"/>
+                        <StringItem index="35" value="DKK"/>
+                        <StringItem index="36" value="DOP"/>
+                        <StringItem index="37" value="DZD"/>
+                        <StringItem index="38" value="EGP"/>
+                        <StringItem index="39" value="ERN"/>
+                        <StringItem index="40" value="ETB"/>
+                        <StringItem index="41" value="EUR"/>
+                        <StringItem index="42" value="FJD"/>
+                        <StringItem index="43" value="GBP"/>
+                        <StringItem index="44" value="GEL"/>
+                        <StringItem index="45" value="GHS"/>
+                        <StringItem index="46" value="GIP"/>
+                        <StringItem index="47" value="GMD"/>
+                        <StringItem index="48" value="GNF"/>
+                        <StringItem index="49" value="GTQ"/>
+                        <StringItem index="50" value="GYD"/>
+                        <StringItem index="51" value="HKD"/>
+                        <StringItem index="52" value="HNL"/>
+                        <StringItem index="53" value="HRK"/>
+                        <StringItem index="54" value="HTG"/>
+                        <StringItem index="55" value="HUF"/>
+                        <StringItem index="56" value="IDR"/>
+                        <StringItem index="57" value="ILS"/>
+                        <StringItem index="58" value="INR"/>
+                        <StringItem index="59" value="IQD"/>
+                        <StringItem index="60" value="IRR"/>
+                        <StringItem index="61" value="ISK"/>
+                        <StringItem index="62" value="JMD"/>
+                        <StringItem index="63" value="JOD"/>
+                        <StringItem index="64" value="JPY"/>
+                        <StringItem index="65" value="KES"/>
+                        <StringItem index="66" value="KGS"/>
+                        <StringItem index="67" value="KHR"/>
+                        <StringItem index="68" value="KMF"/>
+                        <StringItem index="69" value="KRW"/>
+                        <StringItem index="70" value="KWD"/>
+                        <StringItem index="71" value="KZT"/>
+                        <StringItem index="72" value="LAK"/>
+                        <StringItem index="73" value="LBP"/>
+                        <StringItem index="74" value="LKR"/>
+                        <StringItem index="75" value="LRD"/>
+                        <StringItem index="76" value="LSL"/>
+                        <StringItem index="77" value="LYD"/>
+                        <StringItem index="78" value="MAD"/>
+                        <StringItem index="79" value="MDL"/>
+                        <StringItem index="80" value="MGA"/>
+                        <StringItem index="81" value="MKD"/>
+                        <StringItem index="82" value="MMK"/>
+                        <StringItem index="83" value="MNT"/>
+                        <StringItem index="84" value="MOP"/>
+                        <StringItem index="85" value="MRU"/>
+                        <StringItem index="86" value="MUR"/>
+                        <StringItem index="87" value="MVR"/>
+                        <StringItem index="88" value="MWK"/>
+                        <StringItem index="89" value="MXN"/>
+                        <StringItem index="90" value="MYR"/>
+                        <StringItem index="91" value="MZN"/>
+                        <StringItem index="92" value="NAD"/>
+                        <StringItem index="93" value="NIO"/>
+                        <StringItem index="94" value="NOK"/>
+                        <StringItem index="95" value="NPR"/>
+                        <StringItem index="96" value="NZD"/>
+                        <StringItem index="97" value="OMR"/>
+                        <StringItem index="98" value="PAB"/>
+                        <StringItem index="99" value="PEN"/>
+                        <StringItem index="100" value="PGK"/>
+                        <StringItem index="101" value="PHP"/>
+                        <StringItem index="102" value="PKR"/>
+                        <StringItem index="103" value="PLN"/>
+                        <StringItem index="104" value="PYG"/>
+                        <StringItem index="105" value="QAR"/>
+                        <StringItem index="106" value="RON"/>
+                        <StringItem index="107" value="RSD"/>
+                        <StringItem index="108" value="RUB"/>
+                        <StringItem index="109" value="RWF"/>
+                        <StringItem index="110" value="SAR"/>
+                        <StringItem index="111" value="SBD"/>
+                        <StringItem index="112" value="SCR"/>
+                        <StringItem index="113" value="SDG"/>
+                        <StringItem index="114" value="SEK"/>
+                        <StringItem index="115" value="SGD"/>
+                        <StringItem index="116" value="SLL"/>
+                        <StringItem index="117" value="SOS"/>
+                        <StringItem index="118" value="SRD"/>
+                        <StringItem index="119" value="SSP"/>
+                        <StringItem index="120" value="STN"/>
+                        <StringItem index="121" value="SVC"/>
+                        <StringItem index="122" value="SYP"/>
+                        <StringItem index="123" value="SZL"/>
+                        <StringItem index="124" value="THB"/>
+                        <StringItem index="125" value="TJS"/>
+                        <StringItem index="126" value="TMT"/>
+                        <StringItem index="127" value="TND"/>
+                        <StringItem index="128" value="TOP"/>
+                        <StringItem index="129" value="TRY"/>
+                        <StringItem index="130" value="TTD"/>
+                        <StringItem index="131" value="TWD"/>
+                        <StringItem index="132" value="TZS"/>
+                        <StringItem index="133" value="UAH"/>
+                        <StringItem index="134" value="UGX"/>
+                        <StringItem index="135" value="USD"/>
+                        <StringItem index="136" value="UYU"/>
+                        <StringItem index="137" value="UZS"/>
+                        <StringItem index="138" value="VES"/>
+                        <StringItem index="139" value="VND"/>
+                        <StringItem index="140" value="VUV"/>
+                        <StringItem index="141" value="WST"/>
+                        <StringItem index="142" value="XAF"/>
+                        <StringItem index="143" value="XCD"/>
+                        <StringItem index="144" value="XDR"/>
+                        <StringItem index="145" value="XOF"/>
+                        <StringItem index="146" value="XPF"/>
+                        <StringItem index="147" value="YER"/>
+                        <StringItem index="148" value="ZAR"/>
+                        <StringItem index="149" value="ZMW"/>
+                        <StringItem index="150" value="ZWL"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="d0" green="d8" red="81" type="rgb"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Currency Converter">
+                    <Property name="tabTitle" type="java.lang.String" value="Currency Converter"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                                  <Component id="fromValue" min="-2" pref="114" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+                                  <Component id="fromCurrency" min="-2" pref="94" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="currencyConverter" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="toValue" min="-2" pref="115" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                  <Component id="toCurrency" min="-2" pref="94" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="78" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                                  <Component id="currencyConverter" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="25" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="toCurrency" max="32767" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="toValue" min="-2" pref="35" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="fromCurrency" min="-2" pref="31" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="fromValue" min="-2" pref="35" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JComboBox" name="fromCurrency">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="151">
+                        <StringItem index="0" value="CAD"/>
+                        <StringItem index="1" value="AED"/>
+                        <StringItem index="2" value="AFN"/>
+                        <StringItem index="3" value="ALL"/>
+                        <StringItem index="4" value="AMD"/>
+                        <StringItem index="5" value="ANG"/>
+                        <StringItem index="6" value="AOA"/>
+                        <StringItem index="7" value="ARS"/>
+                        <StringItem index="8" value="AUD"/>
+                        <StringItem index="9" value="AWG"/>
+                        <StringItem index="10" value="AZN"/>
+                        <StringItem index="11" value="BAM"/>
+                        <StringItem index="12" value="BBD"/>
+                        <StringItem index="13" value="BDT"/>
+                        <StringItem index="14" value="BGN"/>
+                        <StringItem index="15" value="BHD"/>
+                        <StringItem index="16" value="BIF"/>
+                        <StringItem index="17" value="BND"/>
+                        <StringItem index="18" value="BOB"/>
+                        <StringItem index="19" value="BRL"/>
+                        <StringItem index="20" value="BSD"/>
+                        <StringItem index="21" value="BWP"/>
+                        <StringItem index="22" value="BYN"/>
+                        <StringItem index="23" value="BZD"/>
+                        <StringItem index="24" value="CDF"/>
+                        <StringItem index="25" value="CHF"/>
+                        <StringItem index="26" value="CLP"/>
+                        <StringItem index="27" value="CNY"/>
+                        <StringItem index="28" value="COP"/>
+                        <StringItem index="29" value="CRC"/>
+                        <StringItem index="30" value="CUP"/>
+                        <StringItem index="31" value="CVE"/>
+                        <StringItem index="32" value="CZK"/>
+                        <StringItem index="33" value="DJF"/>
+                        <StringItem index="34" value="DKK"/>
+                        <StringItem index="35" value="DOP"/>
+                        <StringItem index="36" value="DZD"/>
+                        <StringItem index="37" value="EGP"/>
+                        <StringItem index="38" value="ERN"/>
+                        <StringItem index="39" value="ETB"/>
+                        <StringItem index="40" value="EUR"/>
+                        <StringItem index="41" value="FJD"/>
+                        <StringItem index="42" value="GBP"/>
+                        <StringItem index="43" value="GEL"/>
+                        <StringItem index="44" value="GHS"/>
+                        <StringItem index="45" value="GIP"/>
+                        <StringItem index="46" value="GMD"/>
+                        <StringItem index="47" value="GNF"/>
+                        <StringItem index="48" value="GTQ"/>
+                        <StringItem index="49" value="GYD"/>
+                        <StringItem index="50" value="HKD"/>
+                        <StringItem index="51" value="HNL"/>
+                        <StringItem index="52" value="HRK"/>
+                        <StringItem index="53" value="HTG"/>
+                        <StringItem index="54" value="HUF"/>
+                        <StringItem index="55" value="IDR"/>
+                        <StringItem index="56" value="ILS"/>
+                        <StringItem index="57" value="INR"/>
+                        <StringItem index="58" value="IQD"/>
+                        <StringItem index="59" value="IRR"/>
+                        <StringItem index="60" value="ISK"/>
+                        <StringItem index="61" value="JMD"/>
+                        <StringItem index="62" value="JOD"/>
+                        <StringItem index="63" value="JPY"/>
+                        <StringItem index="64" value="KES"/>
+                        <StringItem index="65" value="KGS"/>
+                        <StringItem index="66" value="KHR"/>
+                        <StringItem index="67" value="KMF"/>
+                        <StringItem index="68" value="KRW"/>
+                        <StringItem index="69" value="KWD"/>
+                        <StringItem index="70" value="KZT"/>
+                        <StringItem index="71" value="LAK"/>
+                        <StringItem index="72" value="LBP"/>
+                        <StringItem index="73" value="LKR"/>
+                        <StringItem index="74" value="LRD"/>
+                        <StringItem index="75" value="LSL"/>
+                        <StringItem index="76" value="LYD"/>
+                        <StringItem index="77" value="MAD"/>
+                        <StringItem index="78" value="MDL"/>
+                        <StringItem index="79" value="MGA"/>
+                        <StringItem index="80" value="MKD"/>
+                        <StringItem index="81" value="MMK"/>
+                        <StringItem index="82" value="MNT"/>
+                        <StringItem index="83" value="MOP"/>
+                        <StringItem index="84" value="MRU"/>
+                        <StringItem index="85" value="MUR"/>
+                        <StringItem index="86" value="MVR"/>
+                        <StringItem index="87" value="MWK"/>
+                        <StringItem index="88" value="MXN"/>
+                        <StringItem index="89" value="MYR"/>
+                        <StringItem index="90" value="MZN"/>
+                        <StringItem index="91" value="NAD"/>
+                        <StringItem index="92" value="NGN"/>
+                        <StringItem index="93" value="NIO"/>
+                        <StringItem index="94" value="NOK"/>
+                        <StringItem index="95" value="NPR"/>
+                        <StringItem index="96" value="NZD"/>
+                        <StringItem index="97" value="OMR"/>
+                        <StringItem index="98" value="PAB"/>
+                        <StringItem index="99" value="PEN"/>
+                        <StringItem index="100" value="PGK"/>
+                        <StringItem index="101" value="PHP"/>
+                        <StringItem index="102" value="PKR"/>
+                        <StringItem index="103" value="PLN"/>
+                        <StringItem index="104" value="PYG"/>
+                        <StringItem index="105" value="QAR"/>
+                        <StringItem index="106" value="RON"/>
+                        <StringItem index="107" value="RSD"/>
+                        <StringItem index="108" value="RUB"/>
+                        <StringItem index="109" value="RWF"/>
+                        <StringItem index="110" value="SAR"/>
+                        <StringItem index="111" value="SBD"/>
+                        <StringItem index="112" value="SCR"/>
+                        <StringItem index="113" value="SDG"/>
+                        <StringItem index="114" value="SEK"/>
+                        <StringItem index="115" value="SGD"/>
+                        <StringItem index="116" value="SLL"/>
+                        <StringItem index="117" value="SOS"/>
+                        <StringItem index="118" value="SRD"/>
+                        <StringItem index="119" value="SSP"/>
+                        <StringItem index="120" value="STN"/>
+                        <StringItem index="121" value="SVC"/>
+                        <StringItem index="122" value="SYP"/>
+                        <StringItem index="123" value="SZL"/>
+                        <StringItem index="124" value="THB"/>
+                        <StringItem index="125" value="TJS"/>
+                        <StringItem index="126" value="TMT"/>
+                        <StringItem index="127" value="TND"/>
+                        <StringItem index="128" value="TOP"/>
+                        <StringItem index="129" value="TRY"/>
+                        <StringItem index="130" value="TTD"/>
+                        <StringItem index="131" value="TWD"/>
+                        <StringItem index="132" value="TZS"/>
+                        <StringItem index="133" value="UAH"/>
+                        <StringItem index="134" value="UGX"/>
+                        <StringItem index="135" value="USD"/>
+                        <StringItem index="136" value="UYU"/>
+                        <StringItem index="137" value="UZS"/>
+                        <StringItem index="138" value="VES"/>
+                        <StringItem index="139" value="VND"/>
+                        <StringItem index="140" value="VUV"/>
+                        <StringItem index="141" value="WST"/>
+                        <StringItem index="142" value="XAF"/>
+                        <StringItem index="143" value="XCD"/>
+                        <StringItem index="144" value="XDR"/>
+                        <StringItem index="145" value="XOF"/>
+                        <StringItem index="146" value="XPF"/>
+                        <StringItem index="147" value="YER"/>
+                        <StringItem index="148" value="ZAR"/>
+                        <StringItem index="149" value="ZMW"/>
+                        <StringItem index="150" value="ZWL"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JTextField" name="fromValue">
+                </Component>
+                <Component class="javax.swing.JButton" name="currencyConverter">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="/Users/odinakaarochukwu/Documents/java/currency-converter/currency converter/icons8-currency-exchange-24.png"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="currencyConverterActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="toCurrency">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="151">
+                        <StringItem index="0" value="NGN"/>
+                        <StringItem index="1" value="AED"/>
+                        <StringItem index="2" value="AFN"/>
+                        <StringItem index="3" value="ALL"/>
+                        <StringItem index="4" value="AMD"/>
+                        <StringItem index="5" value="ANG"/>
+                        <StringItem index="6" value="AOA"/>
+                        <StringItem index="7" value="ARS"/>
+                        <StringItem index="8" value="AUD"/>
+                        <StringItem index="9" value="AWG"/>
+                        <StringItem index="10" value="AZN"/>
+                        <StringItem index="11" value="BAM"/>
+                        <StringItem index="12" value="BBD"/>
+                        <StringItem index="13" value="BDT"/>
+                        <StringItem index="14" value="BGN"/>
+                        <StringItem index="15" value="BHD"/>
+                        <StringItem index="16" value="BIF"/>
+                        <StringItem index="17" value="BND"/>
+                        <StringItem index="18" value="BOB"/>
+                        <StringItem index="19" value="BRL"/>
+                        <StringItem index="20" value="BSD"/>
+                        <StringItem index="21" value="BWP"/>
+                        <StringItem index="22" value="BYN"/>
+                        <StringItem index="23" value="BZD"/>
+                        <StringItem index="24" value="CAD"/>
+                        <StringItem index="25" value="CDF"/>
+                        <StringItem index="26" value="CHF"/>
+                        <StringItem index="27" value="CLP"/>
+                        <StringItem index="28" value="CNY"/>
+                        <StringItem index="29" value="COP"/>
+                        <StringItem index="30" value="CRC"/>
+                        <StringItem index="31" value="CUP"/>
+                        <StringItem index="32" value="CVE"/>
+                        <StringItem index="33" value="CZK"/>
+                        <StringItem index="34" value="DJF"/>
+                        <StringItem index="35" value="DKK"/>
+                        <StringItem index="36" value="DOP"/>
+                        <StringItem index="37" value="DZD"/>
+                        <StringItem index="38" value="EGP"/>
+                        <StringItem index="39" value="ERN"/>
+                        <StringItem index="40" value="ETB"/>
+                        <StringItem index="41" value="EUR"/>
+                        <StringItem index="42" value="FJD"/>
+                        <StringItem index="43" value="GBP"/>
+                        <StringItem index="44" value="GEL"/>
+                        <StringItem index="45" value="GHS"/>
+                        <StringItem index="46" value="GIP"/>
+                        <StringItem index="47" value="GMD"/>
+                        <StringItem index="48" value="GNF"/>
+                        <StringItem index="49" value="GTQ"/>
+                        <StringItem index="50" value="GYD"/>
+                        <StringItem index="51" value="HKD"/>
+                        <StringItem index="52" value="HNL"/>
+                        <StringItem index="53" value="HRK"/>
+                        <StringItem index="54" value="HTG"/>
+                        <StringItem index="55" value="HUF"/>
+                        <StringItem index="56" value="IDR"/>
+                        <StringItem index="57" value="ILS"/>
+                        <StringItem index="58" value="INR"/>
+                        <StringItem index="59" value="IQD"/>
+                        <StringItem index="60" value="IRR"/>
+                        <StringItem index="61" value="ISK"/>
+                        <StringItem index="62" value="JMD"/>
+                        <StringItem index="63" value="JOD"/>
+                        <StringItem index="64" value="JPY"/>
+                        <StringItem index="65" value="KES"/>
+                        <StringItem index="66" value="KGS"/>
+                        <StringItem index="67" value="KHR"/>
+                        <StringItem index="68" value="KMF"/>
+                        <StringItem index="69" value="KRW"/>
+                        <StringItem index="70" value="KWD"/>
+                        <StringItem index="71" value="KZT"/>
+                        <StringItem index="72" value="LAK"/>
+                        <StringItem index="73" value="LBP"/>
+                        <StringItem index="74" value="LKR"/>
+                        <StringItem index="75" value="LRD"/>
+                        <StringItem index="76" value="LSL"/>
+                        <StringItem index="77" value="LYD"/>
+                        <StringItem index="78" value="MAD"/>
+                        <StringItem index="79" value="MDL"/>
+                        <StringItem index="80" value="MGA"/>
+                        <StringItem index="81" value="MKD"/>
+                        <StringItem index="82" value="MMK"/>
+                        <StringItem index="83" value="MNT"/>
+                        <StringItem index="84" value="MOP"/>
+                        <StringItem index="85" value="MRU"/>
+                        <StringItem index="86" value="MUR"/>
+                        <StringItem index="87" value="MVR"/>
+                        <StringItem index="88" value="MWK"/>
+                        <StringItem index="89" value="MXN"/>
+                        <StringItem index="90" value="MYR"/>
+                        <StringItem index="91" value="MZN"/>
+                        <StringItem index="92" value="NAD"/>
+                        <StringItem index="93" value="NIO"/>
+                        <StringItem index="94" value="NOK"/>
+                        <StringItem index="95" value="NPR"/>
+                        <StringItem index="96" value="NZD"/>
+                        <StringItem index="97" value="OMR"/>
+                        <StringItem index="98" value="PAB"/>
+                        <StringItem index="99" value="PEN"/>
+                        <StringItem index="100" value="PGK"/>
+                        <StringItem index="101" value="PHP"/>
+                        <StringItem index="102" value="PKR"/>
+                        <StringItem index="103" value="PLN"/>
+                        <StringItem index="104" value="PYG"/>
+                        <StringItem index="105" value="QAR"/>
+                        <StringItem index="106" value="RON"/>
+                        <StringItem index="107" value="RSD"/>
+                        <StringItem index="108" value="RUB"/>
+                        <StringItem index="109" value="RWF"/>
+                        <StringItem index="110" value="SAR"/>
+                        <StringItem index="111" value="SBD"/>
+                        <StringItem index="112" value="SCR"/>
+                        <StringItem index="113" value="SDG"/>
+                        <StringItem index="114" value="SEK"/>
+                        <StringItem index="115" value="SGD"/>
+                        <StringItem index="116" value="SLL"/>
+                        <StringItem index="117" value="SOS"/>
+                        <StringItem index="118" value="SRD"/>
+                        <StringItem index="119" value="SSP"/>
+                        <StringItem index="120" value="STN"/>
+                        <StringItem index="121" value="SVC"/>
+                        <StringItem index="122" value="SYP"/>
+                        <StringItem index="123" value="SZL"/>
+                        <StringItem index="124" value="THB"/>
+                        <StringItem index="125" value="TJS"/>
+                        <StringItem index="126" value="TMT"/>
+                        <StringItem index="127" value="TND"/>
+                        <StringItem index="128" value="TOP"/>
+                        <StringItem index="129" value="TRY"/>
+                        <StringItem index="130" value="TTD"/>
+                        <StringItem index="131" value="TWD"/>
+                        <StringItem index="132" value="TZS"/>
+                        <StringItem index="133" value="UAH"/>
+                        <StringItem index="134" value="UGX"/>
+                        <StringItem index="135" value="USD"/>
+                        <StringItem index="136" value="UYU"/>
+                        <StringItem index="137" value="UZS"/>
+                        <StringItem index="138" value="VES"/>
+                        <StringItem index="139" value="VND"/>
+                        <StringItem index="140" value="VUV"/>
+                        <StringItem index="141" value="WST"/>
+                        <StringItem index="142" value="XAF"/>
+                        <StringItem index="143" value="XCD"/>
+                        <StringItem index="144" value="XDR"/>
+                        <StringItem index="145" value="XOF"/>
+                        <StringItem index="146" value="XPF"/>
+                        <StringItem index="147" value="YER"/>
+                        <StringItem index="148" value="ZAR"/>
+                        <StringItem index="149" value="ZMW"/>
+                        <StringItem index="150" value="ZWL"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JTextField" name="toValue">
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
